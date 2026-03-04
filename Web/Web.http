@@ -1,0 +1,34 @@
+@Web_HostAddress = http://localhost:5210
+
+### Example: Get All Items
+# GET {{Web_HostAddress}}/api/v1/items
+# Accept: application/json
+
+### Example: Get Item By Id
+# GET {{Web_HostAddress}}/api/v1/items/{{itemId}}
+# Accept: application/json
+
+### Example: Create Item
+# POST {{Web_HostAddress}}/api/v1/items
+# Content-Type: application/json
+#
+# {
+#   "name": "Sample Item",
+#   "description": "Sample Description",
+#   "price": 99.99
+# }
+
+### Example: Update Item
+# PUT {{Web_HostAddress}}/api/v1/items/{{itemId}}
+# Content-Type: application/json
+#
+# {
+#   "name": "Updated Item",
+#   "description": "Updated Description",
+#   "price": 149.99
+# }
+
+### Example: Delete Item
+# DELETE {{Web_HostAddress}}/api/v1/items/{{itemId}}
+
+###

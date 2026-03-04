@@ -1,0 +1,14 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.log
+appsettings.Development.json
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
